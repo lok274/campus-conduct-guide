@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="校園管理系統展示與操作指南：操行、家課、勤學、考勤及遲到留堂，按學期整理校務紀錄。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>校園管理系統｜展示與操作指南</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="校園管理系統首頁"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m3 12 13-6 13 6-13 6-13-6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 15v8c5 4 11 4 16 0v-8M28 13v10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span>校園管理系統<small>展示與操作指南</small></span></a>
+      <nav class="site-nav" aria-label="主要導覽"><a href="#modules">系統功能</a><a href="guide.html">操作指南</a><a href="#start">開始使用</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy"><p class="eyebrow"><span></span>從每天一筆紀錄開始</p>
+          <h1 id="hero-title">把日常校務，<br><em>整理在同一個地方。</em></h1>
+          <p class="hero-intro">操行、家課、勤學與考勤，共用學生名冊及學期設定。讓登記、核對和查閱歷程，成為一套連貫的日常流程。</p>
+          <div class="hero-actions"><a class="button button-gold" href="guide.html">閱讀操作指南 <span aria-hidden="true">↗</span></a><a class="text-link light" href="#detention">看看遲到留堂功能 <span aria-hidden="true">↓</span></a></div>
+          <p class="hero-caption">此網站提供功能展示及指南；完整系統在本機執行並保存資料。</p>
+        </div>
+        <aside class="hero-note" aria-labelledby="new-title"><div class="note-heading"><span class="edition-label">功能近況</span><span class="note-date">2026.11.02</span></div><p class="note-number" aria-hidden="true">考勤 <span>＋</span></p><h2 id="new-title">遲到留堂紀錄</h2><p>由手動安排到出席核對，<br>連同豁免與改期一併留痕。</p><ul><li><span aria-hidden="true">01</span>安排學生及留堂日期</li><li><span aria-hidden="true">02</span>記錄出席、缺席或豁免</li><li><span aria-hidden="true">03</span>改期原因及前後歷程</li></ul><a href="#detention">查看功能介紹 <span aria-hidden="true">→</span></a></aside>
+      </div>
+      <div class="container hero-bottom"><span>同一份名冊</span><span>按學年及學期整理</span><span>班別檢視與編輯權限</span><span>保留每次修改歷程</span></div>
+    </section>
+
+    <section class="section container" id="detention" aria-labelledby="detention-title">
+      <div class="section-heading"><div><p class="eyebrow">ATTENDANCE / 考勤管理</p><h2 id="detention-title">每次留堂，都有清楚紀錄。</h2></div><p class="section-summary">安排、出席、豁免和改期放在同一份紀錄，日後可查閱原日期、原因與操作者。</p></div>
+      <figure class="product-figure"><a class="screenshot-link" href="assets/detention-records.jpg" data-image-viewer aria-label="放大遲到留堂紀錄示範畫面"><div class="screenshot-toolbar"><span class="screen-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>考勤管理 → 遲到留堂紀錄</span><span class="zoom-label">按一下放大 <span aria-hidden="true">↗</span></span></div><img src="assets/detention-records.jpg" width="1264" height="953" loading="lazy" alt="遲到留堂紀錄列表：一名示範學生於11月5日獲豁免並附原因，另一名於11月2日已出席。" decoding="async"></a><figcaption><span>實際系統畫面</span>2026/27 學年上學期 · 畫面姓名與紀錄全屬虛構示範。</figcaption></figure>
+      <ol class="detention-steps"><li><span class="step-number">01</span><h3>手動安排</h3><p>選班別、學生及留堂日期，填寫備註。同一學生同日只保留一筆有效留堂。</p></li><li><span class="step-number">02</span><h3>核對出席</h3><p>登記待出席、已出席或缺席。未來的留堂可預先安排，到當日再核對出席。</p></li><li><span class="step-number">03</span><h3>記錄豁免</h3><p>選「已豁免」並填寫原因，保留有效紀錄；需要時可再修改出席狀態。</p></li><li><span class="step-number">04</span><h3>改期留痕</h3><p>按「改期」填新日期及原因；歷程保留改期前後資料，方便交接與核對。</p></li></ol>
+      <div class="section-link-row"><p>列表可按日期、班別、學生及狀態篩選，每頁顯示 50 筆。</p><a class="text-link" href="guide.html">閱讀完整操作步驟 <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="modules-section" id="modules" aria-labelledby="modules-title"><div class="container section">
+      <div class="section-heading"><div><p class="eyebrow">ONE SCHOOL / 一套系統</p><h2 id="modules-title">從課堂到校務，<br>讓紀錄互相接得上。</h2></div><p class="section-summary">老師按獲授權的班別操作；管理員集中維護帳號、名冊與學期設定。</p></div>
+      <div class="module-grid"><article class="module"><span class="module-index">01 / 操行</span><h3>操行管理</h3><p>按班別及學生登記獎懲，查閱紀錄、分數與歷程，分開核對勤到、勤學及守規。</p><span class="module-tag">登記 → 核對 → 查閱</span></article><article class="module"><span class="module-index">02 / 家課</span><h3>家課收交</h3><p>建立家課，逐人登記收交與備註，核對欠交確認；已保存的家課說明可隨時查閱。</p><span class="module-tag">欠交次數與扣分分開處理</span></article><article class="module"><span class="module-index">03 / 勤學</span><h3>勤學評核</h3><p>按學期填寫課堂表現、平均分及格與否及出席率，另可手動登記額外逾期扣分。</p><span class="module-tag">按班批次儲存</span></article><article class="module"><span class="module-index">04 / 考勤</span><h3>考勤與遲到留堂</h3><p>登記準時、缺席及遲到，核對應回校時間與遲到分鐘；另以手動流程安排留堂。</p><span class="module-tag">支援 CSV 拍咭資料上載</span></article><article class="module"><span class="module-index">05 / 報表</span><h3>報表中心</h3><p>集中查閱操行、勤學及勤到報表，包括學期總結與優異名單，按權限範圍輸出 CSV 或列印。</p><span class="module-tag">保留正在查看的報表分頁</span></article><article class="module"><span class="module-index">06 / 管理</span><h3>共用管理</h3><p>維護學年學期、班級學生、老師、帳號及班別權限，並透過本機備份保存資料。</p><span class="module-tag">名冊匯入前先預覽核對</span></article></div>
+    </div></section>
+
+    <section class="section container workflow-section" id="workflow" aria-labelledby="workflow-title"><div class="workflow-intro"><p class="eyebrow">DAILY ROUTINE / 每天的使用方式</p><h2 id="workflow-title">先選學期，<br>再處理手上的事。</h2><a class="text-link" href="guide.html">跟著指南逐步操作 <span aria-hidden="true">→</span></a></div><ol class="workflow-list"><li><span>1</span><div><h3>登入並選擇學年、學期</h3><p>確認頁首範圍，核對所選學期的開始及結束日期。</p></div></li><li><span>2</span><div><h3>在對應模組選班別及學生</h3><p>按任務進入操行、家課、勤學或考勤，老師只操作獲授權班別。</p></div></li><li><span>3</span><div><h3>核對內容後儲存</h3><p>離開未儲存表單時，可選儲存、放棄或取消。儲存失敗時保留輸入供核對。</p></div></li><li><span>4</span><div><h3>查閱歷程、輸出報表</h3><p>需要核對修改時查看歷程；需要整理資料時前往報表中心。</p></div></li></ol></section>
+
+    <section class="start-section" id="start" aria-labelledby="start-title"><div class="container start-grid"><div><p class="eyebrow">GET STARTED / 開始使用</p><h2 id="start-title">準備好本機環境，<br>就能開始設定。</h2><p>取得專案存取權並下載程式碼後，在安裝了 Node.js 22.13 或以上版本的電腦開啟專案目錄。</p><a class="button button-green" href="https://github.com/lok274/campus-conduct-demo" rel="noopener">前往 GitHub 專案 <span aria-hidden="true">↗</span></a></div><div class="start-instructions"><div class="command-heading"><span>在專案目錄執行</span><button type="button" class="copy-button" data-copy-target="start-commands" hidden>複製指令</button></div><pre id="start-commands"><code>npm ci
+npm run dev</code></pre><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><ol><li>依終端機顯示的本機網址開啟系統。</li><li>首次啟動時建立管理員帳號，再設定學年、學期及名冊。</li><li>初次試用可勾選加入虛構示範資料，先熟習流程。</li></ol><p class="local-note">實際登入、編輯及資料庫備份由本機系統提供；本網站不接收或儲存學生資料。</p></div></div></section>
+
+    <section class="section container faq-section" aria-labelledby="faq-title"><div><p class="eyebrow">BEFORE YOU START / 常見問題</p><h2 id="faq-title">使用前，先了解這幾點。</h2></div><div class="faq-list"><details><summary>這個網站可以直接登記學生資料嗎？</summary><p>此網站提供功能展示及操作指南。實際登記請開啟電腦上的完整系統，登入後再選擇學期與班別。</p></details><details><summary>留堂會按遲到次數自動安排嗎？</summary><p>目前採手動安排。老師在「考勤管理 → 遲到留堂紀錄」新增學生與日期，再登記出席狀態、豁免或改期。</p></details><details><summary>「豁免」和「註銷」有甚麼分別？</summary><p>獲批准不用參加留堂時，選「已豁免」並填原因，保留一筆有效安排。誤建或需要撤銷紀錄時，填原因註銷；兩者都保留歷程供查閱。</p></details><details><summary>學生轉班後，舊紀錄會搬到新班嗎？</summary><p>既有紀錄保留固定學期及原班籍。轉班後查閱或修改舊紀錄，仍按原班別的權限處理。</p></details></div></section>
+    <section class="guide-cta container"><div><p class="eyebrow">把流程放在手邊</p><h2>第一次使用，從操作指南開始。</h2></div><a class="button button-green" href="guide.html">打開操作指南 <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div><strong>校園管理系統</strong><p>展示與操作指南 · 最後更新 <time datetime="2026-11-02">2026 年 11 月 2 日</time></p></div><div class="footer-links"><a href="guide.html">操作指南</a><a href="https://github.com/lok274/campus-conduct-demo" rel="noopener">GitHub 專案</a><a href="#top">回到頁首 ↑</a></div></div></footer>
+  <dialog class="image-dialog" aria-labelledby="image-dialog-title"><div class="viewer-heading"><div><h2 id="image-dialog-title">遲到留堂紀錄示範畫面</h2><p>畫面姓名與紀錄全屬虛構示範</p></div><button type="button" data-close-viewer aria-label="關閉放大畫面">關閉 <span aria-hidden="true">×</span></button></div><img src="assets/detention-records.jpg" width="1264" height="953" alt="放大的遲到留堂紀錄示範畫面，包含已出席及已豁免的紀錄。"></dialog>
+</body>
+</html>
